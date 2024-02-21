@@ -24,7 +24,7 @@ public class PersonValidator implements Validator{
 	}
 
 	@Override
-	public boolean supports(Class<?> clazz) {
+	public boolean supports(Class<?> clazz)   {
 		return Person.class.equals(clazz);
 	}
 
